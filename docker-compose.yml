@@ -1,0 +1,8 @@
+services:
+  my-env:
+    image: datascientistus/dl-python-env:latest
+    working_dir: /work
+    volumes:
+      - ./work:/work
+    ports:
+      - "8888:8888"
